@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  object-fit: contain;
+}
+
+.container {
+  width: 768px;
+}
+
+/* Header */
+
+.search {
+  display: flex;
+}
+
+.search-content {
+  width: 600px;
+  height: 220px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.50);
+  background: #FFF; 
+  padding-top: 5px; 
+  font-size: 24px;
+  position: relative;
+  top: 80px;
+  left: 16px;
+  z-index: 2;
+}
+
+
+.filter {
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.50);
+  width: 155px;
+  height: 30px; 
+  position: relative;
+  bottom: 30px;
+  padding-left: 5px;
+}
+
+.item {
+  background-color: #FEF6D6;
+  width: 598px;
+  align-items: center;
+  gap: 0 10px;
+  padding-left: 15px;
+}
+
+.img {
+  margin-bottom: 1rem;
+}
+
+.clue {
+  gap: 0 10px;
+  padding-left: 15px;
+}
+
+/* body */
+
+.card-body {
+  position: relative;
+  left: -15px;
+  width: 235px;
+}
+
+.btn {
+  width: 183px;
+  background: linear-gradient(90deg, #FDD446 0%, #F69B47 100%);
+}
+
+.price-value {
+  font-size: 11px; 
+  border-radius: 7px; 
+  background-color: #FDD446; 
+  width: 76px; 
+  height: 21px; 
+  text-align: center;
+}
+
+.rarity-value {
+  border-radius: 7px; 
+  border: 1px solid #FFC107; 
+  padding: 2px 5px; 
+  width: 90px; 
+  font-size: 11px; 
+  text-align: center;
+}
+
+.circle {
+  background-color: #FDD446;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.icon {
+  object-fit: fill;
+}
+
+#pg::before {
+  content: '';
+  position: absolute;
+  border-radius: 768px;
+  background-color: rgba(253, 212, 70, 0.50);
+  filter: blur(190.0989990234375px); 
+  width: 768px;
+  height: 305px;
+  z-index: -1;
+}
+
+/* footer */
+
+footer {
+  z-index: 22 ;
+}
+
+
